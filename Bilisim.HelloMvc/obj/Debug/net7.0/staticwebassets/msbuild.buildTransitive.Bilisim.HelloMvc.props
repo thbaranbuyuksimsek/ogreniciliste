@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Bilisim.HelloMvc.props" />
+</Project>

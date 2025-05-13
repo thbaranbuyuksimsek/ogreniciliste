@@ -1,0 +1,18 @@
+@model Bilisim.HelloMvc.Models.Ogrenci
+
+<h2>Öğrenci Güncelle</h2>
+
+<form method="post">
+    <input type="hidden" name="Ogrenciid" value="@Model.Ogrenciid" />
+    <div>
+        <label>Ad:</label>
+        <input type="text" name="Ad" value="@Model.Ad" required />
+    </div>
+    <div>
+        <label>Soyad:</label>
+        <input type="text" name="Soyad" value="@Model.Soyad" required />
+    </div>
+    <button type="submit">Güncelle</button>
+</form>
+
+<a href="/Ogrenci/Index">Geri Dön</a>
